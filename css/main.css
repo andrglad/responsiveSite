@@ -199,27 +199,64 @@ p {
 	}
 }
 
-/* 576px - 768px */
-@media screen and (max-width: 768px) {
-	.container {
-		width: 540px;
-	}
-	.desktop {
-		width: 100%;
-	}
-	.input {
-		width: 100%;
-	}
-	.btn {
-		margin-left: 0;
-	    margin-top: 15px;
-	    width: 100%;
-	}
+@media screen and (max-width: 1200px) {
+	 .container{
+		width: 960px;
+	 }
 }
 
-/* 320px - 576px */
-@media screen and (max-width: 576px) {
-	.container {
+@media screen and (max-width: 992px) {
+	.container{
+		width: 720px;
+	 }
+	 .wrapper{
+		flex-direction: column;
+	 }
+	 .offer{
+		width: 100%;
+	 }
+	 .input{
+		width: 100%;
+	 }
+	 .desktop{
+		display: block;
+		width: 549px;
+		margin: 72px auto;
+	 }
+	 .skills{
+		flex-direction: column;
+	 }
+	 .skill{
+		width: auto;
+		margin-bottom: 30px;
+	 }
+	 .mail{
+		flex-direction: column;
+		text-align: center;
+	 }
+	 .input{
+		margin-bottom: 40px;
+	 }
+	 .input{
+		width: 100%;
+	 }
+	 .btn-form{
+		width: 100%;
+		margin-left: 0px;
+	 }
+}
+
+@media screen and (max-width: 768px) {
+	.container{
+		width: 540px;
+	 }
+	 .desktop{
 		width: 90%;
-	}
+	 }
+}
+
+@media screen and (max-width: 576px) {
+	.container{
+		width: 90%;
+	 }
 }
